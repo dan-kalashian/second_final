@@ -8,6 +8,8 @@ print(x*2)
 
 flowers = pd.read_csv("iris_data.csv")
 print(flowers[["Species", "obs", "flower_part"]])
+print(flowers.describe())
+print(flowers[(flowers["Length"]>5)])
 
 Dans_Thoughts = {'Activity': ['book', 'tv', 'games', 'studying'],
         'Days Since Last time': [1, 0, 11, 0],
